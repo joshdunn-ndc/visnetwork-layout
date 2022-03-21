@@ -1,3 +1,8 @@
-<div #visualizerContainer>
+<div class="button-container">
+  <button (click)="onClusterSwitchboard()">Cluster Switchboards</button>
+  <button (click)="onClusterPDU()">Cluster PDU's</button>
+  <button (click)="onClusterCircuit()">Cluster Circuits</button>
+</div>
+<div class="visualizer-container" #visualizerContainer>
   <app-visualizer [data]="data" [options]="options"></app-visualizer>
 </div>

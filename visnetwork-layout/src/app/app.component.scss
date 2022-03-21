@@ -1,7 +1,13 @@
 :host {
   height: 100%;
+  display: flex;
+  flex-direction: column;
 
-  div {
-    height: 100%;
+  .button-container {
+    height: 5%;
+  }
+
+  .visualizer-container {
+    height: 95%;
   }
 }

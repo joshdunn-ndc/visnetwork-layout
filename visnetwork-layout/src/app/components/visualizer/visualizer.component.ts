@@ -41,7 +41,7 @@ export class VisualizerComponent implements AfterViewInit, OnDestroy {
   @Output()
   public nodeDeselected: EventEmitter<void> = new EventEmitter<void>();
 
-  private network?: Network;
+  public network?: Network;
 
   /**
    * @inheritdoc
